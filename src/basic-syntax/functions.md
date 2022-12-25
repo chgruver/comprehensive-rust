@@ -11,7 +11,7 @@ fn is_divisible_by(lhs: u32, rhs: u32) -> bool {
     if rhs == 0 {
         return false;  // Corner case, early return
     }
-    lhs % rhs == 0     // The last expression is the return value
+    return lhs % rhs == 0     // The last expression is the return value
 }
 
 fn fizzbuzz(n: u32) -> () {  // No return value means returning the unit type `()`
